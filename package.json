@@ -1,0 +1,25 @@
+{
+  "name": "stack-trace-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "cli",
+    "stack",
+    "stacktrace",
+    "stack-trace",
+    "error",
+    "locate",
+    "source",
+    "sourcemap",
+    "source map"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "source-map": "^0.7.4"
+  }
+}
