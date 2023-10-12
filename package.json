@@ -1,8 +1,8 @@
 {
   "name": "stack-trace-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/stack-trace.js",
   "keywords": [
     "cli",
     "stack",
@@ -14,6 +14,10 @@
     "sourcemap",
     "source map"
   ],
+  "bin": {
+    "stack-trace": "./bin/stack-trace.js"
+  },
+  "repository": "omitu-gd/stack-trace-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +25,8 @@
   "license": "ISC",
   "dependencies": {
     "source-map": "^0.7.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
